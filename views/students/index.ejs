@@ -14,7 +14,7 @@
         <li>
           <%= student.text %>
           -
-          <%= student.basketball_team ? "On the team" : "Not on the team" %> 
+          <%= student.basketball_team ? `Jersey Number ${student._id}.` : "Not on the team." %> 
         </li>
       <% }) %>
     </ul>
